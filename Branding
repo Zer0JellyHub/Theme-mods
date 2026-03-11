@@ -17,13 +17,31 @@ This folder contains additional CSS tweaks that build on top of the **Ultrachrom
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css');
 @import url("https://cdn.jsdelivr.net/gh/intro-skipper/intro-skipper-css@main/skip-button.min.css");
 
-:root { --skip-hide-duration: 8s; }
+/* Home Tab */
+.emby-tab-button.tab-home::before {
+    content: "home";
+    font-family: 'Material Icons';
+    font-size: 28px;
+    margin-right: 10px;
+}
 
-.emby-tab-button::before { font-size: 28px; margin-right: 10px; }
+/* Favoriten Tab */
+.emby-tab-button.tab-favorites::before {
+    content: "favorite";
+    font-family: 'Material Icons';
+    font-size: 28px;
+    margin-right: 10px;
+}
 
-.emby-tab-button.tab-home::before        { content: "home";           font-family: 'Material Icons'; }
-.emby-tab-button.tab-favorites::before   { content: "favorite";       font-family: 'Material Icons'; }
-.emby-tab-button.tab-watchlist::before   { content: "bookmark";       font-family: 'Material Icons'; }
+/* Watchlist Tab */
+.emby-tab-button.tab-watchlist::before {
+    content: "bookmark";
+    font-family: 'Material Icons';
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+/* Bookmark+ Tab */
 .emby-tab-button.tab-bookmarkadd::before {
     content: "bookmark_add";
     font-family: 'Material Symbols Rounded';
@@ -32,27 +50,9 @@ This folder contains additional CSS tweaks that build on top of the **Ultrachrom
     margin-right: 10px;
 }
 
-.emby-tab-button.tab-filme::before       { content: "movie";          font-family: 'Material Icons'; }
-.emby-tab-button.tab-vorschlaege::before { content: "lightbulb";      font-family: 'Material Icons'; }
-.emby-tab-button.tab-favoriten::before   { content: "favorite";       font-family: 'Material Icons'; }
-.emby-tab-button.tab-sammlungen::before  { content: "folder_copy";    font-family: 'Material Icons'; }
-.emby-tab-button.tab-genres::before      { content: "theater_comedy"; font-family: 'Material Icons'; }
-
-.emby-tab-button.tab-serien::before      { content: "tv";             font-family: 'Material Icons'; }
-.emby-tab-button.tab-demnaechst::before  { content: "event";          font-family: 'Material Icons'; }
-.emby-tab-button.tab-folgen::before      { content: "playlist_play";  font-family: 'Material Icons'; }
-
-.emby-tab-button.tab-musik::before       { content: "music_note";     font-family: 'Material Icons'; }
-.emby-tab-button.tab-alben::before       { content: "album";          font-family: 'Material Icons'; }
-.emby-tab-button.tab-kuenstler::before   { content: "mic";            font-family: 'Material Icons'; }
-.emby-tab-button.tab-playlisten::before  { content: "queue_music";    font-family: 'Material Icons'; }
-
-.emby-tab-button.tab-fotos::before       { content: "photo_library";  font-family: 'Material Icons'; }
-.emby-tab-button.tab-buecher::before     { content: "menu_book";      font-family: 'Material Icons'; }
-.emby-tab-button.tab-personen::before    { content: "group";          font-family: 'Material Icons'; }
-.emby-tab-button.tab-studios::before     { content: "domain";         font-family: 'Material Icons'; }
-.emby-tab-button.tab-tags::before        { content: "label";          font-family: 'Material Icons'; }
-.emby-tab-button.tab-jahre::before       { content: "calendar_month"; font-family: 'Material Icons'; }
+:root {
+    --skip-hide-duration: 8s;
+}
 
 4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
 
