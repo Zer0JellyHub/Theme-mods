@@ -54,5 +54,17 @@ This folder contains additional CSS tweaks that build on top of the **Ultrachrom
     --skip-hide-duration: 8s;
 }
 
+@media (max-width: 600px) {
+  button.cardOverlayButton.paper-icon-button-light {
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    padding: 2px !important;
+  }
+  button.cardOverlayButton.paper-icon-button-light .material-icons {
+    font-size: 14px !important;
+  }
+}
+
 4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
 
