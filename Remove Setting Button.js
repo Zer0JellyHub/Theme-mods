@@ -1,12 +1,4 @@
-### ⚙️ Remove Setting Button
 
-This folder contains additional CSS tweaks to hide the settings button.
-
-**Step 1 — Apply the JavaScript:**
-1. Go to your Jellyfin **Admin Dashboard** in your web browser
-2. Navigate to **Dashboard → General → Custom JavaScript**
-3. Paste the following code:
-```js
 document.addEventListener('viewshow', function() {
     setTimeout(function() {
         const menuItems = document.querySelectorAll('.navMenuOption');
@@ -18,5 +10,3 @@ document.addEventListener('viewshow', function() {
     }, 500);
 });
 ```
-
-4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
