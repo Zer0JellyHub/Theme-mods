@@ -13,3 +13,4 @@ const observer = new MutationObserver(assignTabClasses);
 observer.observe(document.body, { childList: true, subtree: true });
 // Initial
 assignTabClasses();
+```
