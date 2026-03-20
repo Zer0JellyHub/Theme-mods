@@ -1,4 +1,3 @@
-
 document.addEventListener('viewshow', function() {
     setTimeout(function() {
         const menuItems = document.querySelectorAll('.navMenuOption');
