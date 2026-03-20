@@ -1,12 +1,3 @@
-### 🏠 Home Screen
-
-This folder contains additional CSS tweaks for the home screen layout.
-
-**Step 1 — Apply the JavaScript:**
-1. Go to your Jellyfin **Admin Dashboard** in your web browser
-2. Navigate to **Dashboard → General → Custom JavaScript**
-3. Paste the following code:
-```js
 function assignTabClasses() {
     document.querySelectorAll('.emby-tab-button').forEach(btn => {
         const text = btn.textContent.trim().toLowerCase();
@@ -23,6 +14,4 @@ observer.observe(document.body, { childList: true, subtree: true });
 // Initial
 assignTabClasses();
 ```
-
-4. Click **Save** and hard refresh your browser (Ctrl+Shift+R)
 
