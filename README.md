@@ -16,6 +16,15 @@ A personal collection of JavaScript mods, UI tweaks and overlays for a self-host
 
 ---
 
+✨ Features Overview
+FeatureTab / ScriptDescription🏠 Home IconHome Icon.jsReplaces default home text with an icon❤️ Favoritennative JellyfinCustom tab styling👁️ WatchlistBookmarks home.jsWatchlist preview overlay🔖 BookmarksBookmarks home.jsBookmarks overlay on home📅 CalendarCalendar.js"Coming Up" glassmorphism overlay — next 7 days⭐ RatingsRating Custom Tab Hud + Overlay.jsFull ratings HUD with Movies / Series ranking, Watchlist, History, Search & Rate👍? 4Useparate scriptPersonalized recommendations overlay🎬 Version SelectorVersion Button Movies/Series.jsSwitch between multiple file versions (4K, 1080p, Dub, Sub…)🔍 Search FixK3nats Search Fix.jsCustom search overlay, hides episodes from results🎞️ Media BarFix Mediabar.js + Media bar extention.jsFeatured content slideshow bar fix🔄 Refresh ButtonRefresh button Laptop app.jsAdds refresh to desktop app header🎭 PF FixPF Fix.jsProfile picture / user fix✏️ Fix Double NameFix Double Name.jsRemoves duplicate title display⚙️ Kefin TweaksKefin.js + KefinTweaks-Config.jsVarious Jellyfin UI tweaks
+
+📸 Screenshots
+Home Screen
+All custom tabs visible in the top navigation bar:
+
+---
+
 ## ✨ Features at a glance
 
 | Mod | Description |
