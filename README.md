@@ -83,7 +83,6 @@ Click **Ratings** → full overlay with:
 | `Branding/` | Custom branding assets |
 | `Startsite better/` | Home page improvements |
 
-
 ---
 
 ## ✨ Features at a glance
@@ -105,6 +104,12 @@ Click **Ratings** → full overlay with:
 ---
 
 ## 📸 Preview
+
+<p align="center">
+  <a href="https://zer0jellyhub.github.io/TheHub/">
+    <img src="https://img.shields.io/badge/🎬_Live_Demo-Try_it_interactively-7c6af7?style=for-the-badge" alt="Live Demo"/>
+  </a>
+</p>
 
 <p align="center">
   <img src="assets/preview-ratings.svg" alt="Ratings Overlay – Desktop" width="100%"/>
