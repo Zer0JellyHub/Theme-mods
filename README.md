@@ -20,7 +20,6 @@ A personal collection of JavaScript mods, UI tweaks and overlays for a self-host
 
 > A full custom UI enhancement suite for Jellyfin — built for the **Ultrachromic / Kaleidochromic** theme.
 
-![Preview](https://raw.githubusercontent.com/Zer0JellyHub/TheHub/main/preview.png)
 
 ---
 
@@ -196,15 +195,6 @@ The main feature — a full-screen glassmorphism overlay triggered by clicking t
 
 Rankings are cached for **24 hours** in `localStorage`. First open loads everything from the server — subsequent opens within 24h are instant. Cache is automatically invalidated when you submit or delete a rating.
 
-### k3ntas API
-
-This overlay uses the correct k3ntas endpoint:
-```
-POST /Ratings/Items/{id}/Rating?rating=N   ← submit/change
-DELETE /Ratings/Items/{id}/Rating          ← remove
-GET    /Ratings/Items/{id}/DetailedRatings ← per-user breakdown
-GET    /Ratings/Items/{id}/Stats           ← average + count
-```
 
 ---
 
