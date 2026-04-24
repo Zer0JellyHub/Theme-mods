@@ -110,19 +110,6 @@ Click **Ratings** → full overlay with:
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/preview-ratings.svg" alt="Ratings Overlay – Desktop" width="100%"/>
-  <br/>
-  <em>Ratings Overlay on desktop — ranked movies with user ratings expand panel</em>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="assets/preview-mobile.svg" alt="Ratings Overlay – Mobile" width="340"/>
-  <br/>
-  <em>Mobile layout — all 5 tabs visible, wrapping header</em>
-</p>
 
 ---
 
